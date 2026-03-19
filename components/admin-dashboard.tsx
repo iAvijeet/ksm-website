@@ -170,7 +170,7 @@ export function AdminDashboard() {
         >
           <div className="stack-list">
             {content.brands.map((brand, index) => (
-              <div className="admin-grid boxed-grid" key={`${brand.name}-${index}`}>
+              <div className="admin-grid boxed-grid" key={`brand-${index}`}>
                 <label>
                   Brand Name
                   <input
@@ -228,7 +228,7 @@ export function AdminDashboard() {
         >
           <div className="stack-list">
             {content.catalogues.map((catalogue, index) => (
-              <div className="admin-grid boxed-grid" key={`${catalogue.title}-${index}`}>
+              <div className="admin-grid boxed-grid" key={`catalogue-${index}`}>
                 <label>
                   Catalogue Title
                   <input
@@ -286,7 +286,7 @@ export function AdminDashboard() {
         >
           <div className="stack-list">
             {content.branches.map((branch, index) => (
-              <div className="admin-grid boxed-grid" key={`${branch.name}-${index}`}>
+              <div className="admin-grid boxed-grid" key={`branch-${index}`}>
                 <label>
                   Branch Name
                   <input
@@ -374,7 +374,7 @@ export function AdminDashboard() {
         >
           <div className="stack-list">
             {content.gallery.map((item, index) => (
-              <div className="admin-grid boxed-grid" key={`${item.title}-${index}`}>
+              <div className="admin-grid boxed-grid" key={`gallery-${index}`}>
                 <label>
                   Title
                   <input

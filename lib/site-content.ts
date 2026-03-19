@@ -53,7 +53,7 @@ export const defaultSiteContent: SiteContent = {
   heroSubtitle:
     "Authorized-style product showcase for premium tiles, bath fittings, finishes, and sink solutions.",
   heroDescription:
-    "Explore a refined selection spanning KAJARIA TILES, SIMPOLO TILES, JAQUAR, ARTIZE, BERGER PAINTS, and FUTURA SINKS. Discover collections, browse catalogues, and connect instantly on WhatsApp for showroom guidance.",
+    "Explore a refined selection spanning KAJARIA TILES, SIMPOLO TILES, JAQUAR, ARTIZE, BERGER PAINTS, and FUTURA SINKS. Discover collections, browse catalogues, and connect instantly on WhatsApp for showroom guidance across tiles, bathware, finishes, and sink solutions.",
   whatsappNumber: "919876543210",
   whatsappMessage:
     "Hello, I would like details about tiles, bath fixtures, catalogues, and branch locations.",
@@ -69,39 +69,39 @@ export const defaultSiteContent: SiteContent = {
   brands: [
     {
       name: "KAJARIA TILES",
-      tagline: "Architectural tiles with scale and design breadth",
+      tagline: "Premium wall and floor tiles with advanced manufacturing and design depth",
       description:
-        "Showcasing versatile wall and floor collections for residential and commercial spaces."
+        "Inspired by Kajaria's emphasis on premium wall and floor tiles, advanced technology, elegant designs, and easy maintenance for lasting residential and commercial spaces."
     },
     {
       name: "SIMPOLO TILES",
-      tagline: "Contemporary surfaces with expressive design language",
+      tagline: "Beauty, innovation, and strength brought into contemporary surfaces",
       description:
-        "A refined range suited for modern interiors, statement walls, and premium flooring."
+        "Inspired by Simpolo's focus on beauty, innovation, strength, and modern living, suited for expressive interiors, premium flooring, and design-led spaces."
     },
     {
       name: "JAQUAR",
-      tagline: "Complete bath fitting solutions",
+      tagline: "Complete bath solutions built on quality, aesthetics, and service",
       description:
-        "Presenting the trusted full ecosystem of faucets, showers, sanitaryware, wellness, and accessories."
+        "Inspired by Jaquar's positioning around complete bathroom solutions, world-class products, contemporary inspiration, and strong after-sales care."
     },
     {
       name: "ARTIZE",
-      tagline: "Luxury bath design at the high end",
+      tagline: "Art-inspired luxury crafted for refined bath spaces",
       description:
-        "Curated for customers seeking sophisticated, design-led bathroom experiences."
+        "Inspired by Artize's luxury-first language of refined taste, minimal forms, tactile detailing, and design connoisseur appeal."
     },
     {
       name: "BERGER PAINTS",
-      tagline: "Interior and exterior finish systems",
+      tagline: "Paint and coating solutions backed by reach, service, and finish expertise",
       description:
-        "Complementing hard surfaces with color, texture, and finish consultation."
+        "Inspired by Berger Paints India's focus on innovative solutions, broad product depth, customer support, and tailored paint services across project types."
     },
     {
       name: "FUTURA SINKS",
-      tagline: "Practical and premium sink solutions",
+      tagline: "Precision-driven kitchen sink solutions with durability and style",
       description:
-        "A clean and durable offering for kitchens and utility-led spaces."
+        "Inspired by Futura's emphasis on precision, durability, aesthetic value, and high-performance sink and accessory solutions."
     }
   ],
   categories: [

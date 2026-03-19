@@ -96,7 +96,11 @@ export default function HomePage() {
         <div className="gallery-grid">
           {content.gallery.map((item) => (
             <figure key={item.title} className="gallery-card">
-              <img src={item.src} alt={item.title} />
+              {item.type === "video" ? (
+                <video src={item.src} autoPlay muted loop playsInline />
+              ) : (
+                <img src={item.src} alt={item.title} />
+              )}
               <figcaption>{item.title}</figcaption>
             </figure>
           ))}
